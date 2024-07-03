@@ -5,10 +5,10 @@ const validateTransaction = (req, res, next) => {
   const parsedAmount = parseFloat(amount); // Parse as float to handle decimals
 
   // Check if any required fields are missing
-  if (!parsedAmount || !date || !category) {
+  if (!parsedAmount || !date || !category || !type || !description) {
     return res.status(400).json({
       error:
-        "All fields (item_name, amount, date, from, category, type, description) are required.",
+        "All fields (amount, date, category, type, description) are required.",
     });
   }
 
