@@ -41,7 +41,7 @@ To get the backend server running locally:
 
 ## Deployment
 
-The backend is deployed on Render. You can access it at [Render Dashboard](https://dashboard.render.com/web/srv-cq1aopmehbks73f28vo0).
+The backend is deployed on Render. You can access it at [Render Dashboard](https://project-budgeting-app-backend-3zjg.onrender.com/transactions/).
 
 ## License
 
