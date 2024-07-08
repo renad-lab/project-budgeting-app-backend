@@ -10,7 +10,7 @@ app.use(express.json());
 app.use("/transactions", transactionsController);
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the Coffeebeanies Business Tracker App");
+  res.send("Welcome to the Coffeebeanies Business Tracker App!");
 });
 
 module.exports = app;
